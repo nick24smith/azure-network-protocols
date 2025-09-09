@@ -38,6 +38,8 @@ Copy the private IP Address of the Ubuntu VM and ping it from the Windows 10 VM.
 Attempt to ping a public website like www.google.com and observe the traffic in WireShark.
 <img width="775" height="574" alt="image" src="https://github.com/user-attachments/assets/f733bf71-7007-4c9a-a1d9-321bff36e920" />
 
+<h2>Firewall Configuration</h2>
+
 Now we're going to configure a firewall in our Network Security Group. First, we initiate a non-stop ping from our Windows 10 VM to our Ubuntu VM.
 
 <img width="788" height="641" alt="image" src="https://github.com/user-attachments/assets/a95feb88-6fbf-4973-a446-459d673b789f" />
