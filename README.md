@@ -38,3 +38,17 @@ Copy the private IP Address of the Ubuntu VM and ping it from the Windows 10 VM.
 Attempt to ping a public website like www.google.com and observe the traffic in WireShark.
 <img width="775" height="574" alt="image" src="https://github.com/user-attachments/assets/f733bf71-7007-4c9a-a1d9-321bff36e920" />
 
+Now we're going to configure a firewall in our Network Security Group. First, we initiate a non-stop ping from our Windows 10 VM to our Ubuntu VM.
+
+<img width="788" height="641" alt="image" src="https://github.com/user-attachments/assets/a95feb88-6fbf-4973-a446-459d673b789f" />
+
+Open the Network Security Group your Ubuntu VM is using and disable incoming ICMP traffic.
+
+<img width="871" height="665" alt="image" src="https://github.com/user-attachments/assets/fb49bd96-9865-4b6c-b484-c341b005d473" />
+
+<img width="436" height="763" alt="image" src="https://github.com/user-attachments/assets/021faa86-8e0c-4e2c-9a3d-39c7568d0f70" />
+
+Observe the ping requests within WireShark and command line ping activity in Powershell within the Windows 10 VM.
+
+<img width="826" height="677" alt="image" src="https://github.com/user-attachments/assets/c1c3ee6c-9f24-480d-8f49-77bfa6f13e8b" />
+
