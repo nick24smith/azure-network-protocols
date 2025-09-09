@@ -57,3 +57,5 @@ Observe the ping requests within WireShark and command line ping activity in Pow
 <h2>Observe SSH Traffic</h2>
 
 On your Windows VM, go to WireShark and packet capture for SSH traffic only. Then open PowerShell, and type: ssh <username for Ubuntu VM>@<private IP address. Input your password to your Ubuntu VM and you should be able to type commands into the Linux SSH connection and observe SSH traffic spam in WireShark.
+
+<img width="1368" height="883" alt="image" src="https://github.com/user-attachments/assets/fc0db37a-73c9-442d-b58e-bfbe1179afb9" />
