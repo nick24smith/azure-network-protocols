@@ -59,3 +59,17 @@ Observe the ping requests within WireShark and command line ping activity in Pow
 On your Windows VM, go to WireShark and packet capture for SSH traffic only. Then open PowerShell, and type: ssh <username for Ubuntu VM>@<private IP address. Input your password to your Ubuntu VM and you should be able to type commands into the Linux SSH connection and observe SSH traffic spam in WireShark.
 
 <img width="1368" height="883" alt="image" src="https://github.com/user-attachments/assets/fc0db37a-73c9-442d-b58e-bfbe1179afb9" />
+
+<h2>Observe DHCP Traffic</h2>
+
+In Wireshark, filter for DHCP traffic only. In your Windows 10 VM, attempt to issue a new IP address. To do this, open up PowerShell and run ipconfig /renew. Then you can observe the DHCP traffic in WireShark.
+
+<img width="796" height="717" alt="image" src="https://github.com/user-attachments/assets/2cb678c8-4725-4bbf-ad99-61ba3f098188" />
+
+<h2>Observe DNS Traffic</h2>
+
+In Wireshark, filter for DNS traffic only. In Windows 10 VM, use PowerShell and run nslookup *any website like Google or Disney for example*. For this case, I do nslookup google.com AND nslookup disney.com. Then observe the DNS traffic being shown in WireShark.
+
+<img width="1227" height="645" alt="image" src="https://github.com/user-attachments/assets/96b90523-a313-434a-ba9c-2e1359298ea5" />
+
+<h2>Observe RDP Traffic</h2>
